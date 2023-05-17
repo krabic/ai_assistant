@@ -19,12 +19,6 @@ git clone hhttps://github.com/krabic/ai_assistant
 cd ai_assistant
 ```
 
-3. Install the required packages using the pip package manager:
-
-```
-pip install -r requirements.txt
-```
-
 ## Configuration
 
 Before running the project, you need to configure some parameters.
