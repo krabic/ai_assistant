@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ai-assistant"
+version = "0.1.0"
+description = ""
+authors = ["grisha <grigoryvoloshyn@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "ai_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.170"
+nltk = "^3.8.1"
+prompt = "^0.4.1"
+fastapi = "^0.95.1"
+openai = "^0.27.6"
+pypdf = "^3.8.1"
+chromadb = "^0.3.23"
+tiktoken = "^0.4.0"
+export = "^0.2.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
